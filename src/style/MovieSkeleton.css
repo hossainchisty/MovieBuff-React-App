@@ -1,0 +1,49 @@
+.movie-list-skeleton {
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.movie-list-skeleton__header {
+  height: 60px;
+  background-color: #dddddd9e;
+}
+
+.movie-list-skeleton__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.movie-list-skeleton__item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+}
+
+.movie-list-skeleton__poster {
+  width: 100%;
+  height: 0;
+  padding-bottom: 150%;
+  background-color: #ddddddbe;
+}
+
+.movie-list-skeleton__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie-list-skeleton__title {
+  height: 20px;
+  width: 50%;
+  background-color: #ddd;
+}
+
+.movie-list-skeleton__subtitle {
+  height: 15px;
+  width: 30%;
+  background-color: #ddd;
+}
